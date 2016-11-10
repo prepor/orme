@@ -1,0 +1,3 @@
+B node_modules/bs-platform/lib/ocaml
+S node_modules/bs-platform/lib/ocaml
+FLG -ppx /Users/prepor/Dropbox/lab/ocaml/eml/node_modules/bs-platform/bin/bsppx.exe
