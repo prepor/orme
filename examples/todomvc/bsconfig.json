@@ -1,0 +1,24 @@
+{
+  "name": "orme-examples-todomvc",
+  "version": "0.1.0",
+  "ocaml-config": {
+    "bsc-flags" :
+    [
+      "-w", "-40",  "-bs-no-version-header", "-bs-cross-module-opt"
+    ],
+    "sources": [
+      {
+        "dir": "orme",
+        "files": {
+          "slow-re": ".*\\.mli?"
+        }
+      },
+      {
+        "dir": "src",
+        "files": {
+          "slow-re": ".*\\.mli?"
+        }
+      }
+    ]
+  }
+}

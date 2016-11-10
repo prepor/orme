@@ -1,0 +1,33 @@
+{
+  "name": "orme",
+  "version": "0.1.0",
+  "ocaml-config": {
+    "bsc-flags" :
+    [
+      "-w", "-40",  "-bs-no-version-header", "-bs-cross-module-opt"
+    ],
+    "sources": [
+      {
+        "dir": "src",
+        "public" : ["Orme"],
+        "files": [
+          "result.ml",
+          "result.mli",
+
+          "orme.ml"
+          // "Browser.ml",
+          // "Channel.ml",
+          // "Program.ml",
+          // "Task.ml",
+          // "Task.mli",
+          // "Json.ml",
+          // "Json.mli",
+          // "Html.mli",
+          // "Html.ml",
+          // "Vdom.ml",
+          // "Orme.ml"
+        ]
+      }
+    ]
+  }
+}

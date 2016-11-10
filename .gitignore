@@ -1,0 +1,6 @@
+node_modules
+lib/js
+lib/ocaml
+
+examples/*/lib/js
+examples/*/lib/bs
